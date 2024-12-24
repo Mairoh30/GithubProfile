@@ -30,6 +30,8 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
+        //buildConfigField("String", "ACCESS_TOKEN", apikeyProperties['ACCESS_TOKEN'])
+
 
         // Menambahkan ACCESS_TOKEN dari apikey.properties ke BuildConfig
         buildConfigField(
